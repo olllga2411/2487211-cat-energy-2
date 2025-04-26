@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Ольга Богордаева](https://up.htmlacademy.ru/adaptive-individual/2/user/2487211).
-* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
+* Наставник: [Сергей Остаповец](https://up.https://htmlacademy.ru/profile/seraphim).
 
 ---
 
@@ -42,3 +42,4 @@ _`.github`, `.editorconfig`, `.eslintrc`, `.gitattributes`, `.gitignore`, `.lint
 
 [check-image]: https://github.com/htmlacademy-adaptive/2487211-cat-energy-2/workflows/Project%20check/badge.svg?branch=master
 [check-url]: https://github.com/htmlacademy-adaptive/2487211-cat-energy-2/actions
+[def]: https://htmlacademy.ru/profile/seraphim
