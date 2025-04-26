@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Ольга Богордаева](https://up.htmlacademy.ru/adaptive-individual/2/user/2487211).
-* Наставник: `Сергей Остаповец`.
+* Наставник: [Сергей Остаповец] (https://htmlacademy.ru/profile/seraphim).
 
 ---
 
