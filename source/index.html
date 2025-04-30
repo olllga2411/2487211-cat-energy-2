@@ -13,31 +13,38 @@
   <header class="main-header">
     <a class="main-header__logo" href="#">
       <img class="main-header__logo-image" src="/source/images/logo-mobile.png" width="33" height="38" alt="Логотим магазина CAT Energy">
-      <p>Cat energy</p>
+      <p class="logo-text">Cat energy</p>
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
-      <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <a class="main-nav__link main-nav__link--current" href="#">Главная</a>
-        </li>
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
-        </li>
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="#">Подбор программы</a>
-        </li>
-      </ul>
-      <a class="hero-link button" href="#">Подобрать программу</a>
+      <div class="main-nav__container">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link main-nav__link--current" href="#">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Подбор программы</a>
+          </li>
+        </ul>
+        <a class="hero-link button" href="#">Подобрать программу</a>
+      </div>
     </nav>
   </header>
   <main class="main-container">
     <section class="hero">
-      <h1 class="hero__title">Функциональное питание для котов</h1>
-      <h3 class="hero__slogan">Занялся собой? Займись котом!</h3>
-      <a class="hero-link button" href="#">Подобрать программу</a>
+      <div class="hero-container">
+        <h1 class="hero__title">Функциональное питание для котов</h1>
+        <h3 class="hero__slogan">Занялся собой? Займись котом!</h3>
+        <a class="hero-link button" href="#">Подобрать программу</a>
+        <div class="hero__image">
+          <img src="/source/images/package.png" width="280" height="270" alt="Товар в фирменной упаковке">
+        </div>
+      </div>
     </section>
     <section class="programs">
       <h2 class="visually-hidden">Виды программ</h2>
@@ -72,30 +79,55 @@
       </ul>
     </section>
     <section class="stats">
-      <h2 class="stats__title">Живой пример</h2>
-      <dl class="stats__list">
-        <div class="stats__item">
-          <dt class="stats__number">15 кг</dt>
-          <dd class="stats__description">снижение веса</dd>
-        </div>
-        <div class="stats__item">
-          <dt class="stats__number">60 дней</dt>
-          <dd class="stats__description">затрачено времени</dd>
-        </div>
-        <div class="stats__item">
-          <dd class="stats__description">затраты на питание</dd>
-          <dt class="stats__number">15000 рублей</dt>
-        </div>
-      </dl>
-      <div class="stats_slider"></div>
+      <div class="stats__container">
+        <h2 class="stats__title">Живой пример</h2>
+        <dl class="stats__list">
+          <div class="stats__item">
+            <dt class="stats__number">15 кг</dt>
+            <dd class="stats__description">снижение веса</dd>
+          </div>
+          <div class="stats__item">
+            <dt class="stats__number">60 дней</dt>
+            <dd class="stats__description">затрачено времени</dd>
+          </div>
+          <div class="stats__item">
+            <dt class="stats__number">15000 рублей</dt>
+            <dd class="stats__description">затраты на питание</dd>
+          </div>
+        </dl>
+        <div class="stats_slider"></div>
+      </div>
     </section>
     <section class="contacts">
       <h2 class="visually-hidden">Сотрудничество</h2>
-      <p class="contacts__slogan">Приглашаем к сотрудничеству диллеров!</p>
-      <p class="contacts__adress">ул. Большая<br>Конюшенная, д. 19/8<br>Санкт-Петербург</p>
+      <div>
+        <p class="contacts__slogan">Приглашаем к сотрудничеству диллеров!</p>
+        <p class="contacts__adress">ул. Большая<br>Конюшенная, д. 19/8<br>Санкт-Петербург</p>
+      </div>
       <div class="contacts__map"></div>
     </section>
   </main>
+  <footer class="main-footer">
+    <div class="main-footer__container">
+      <a class="main-footer__logo" href="#">
+        <p class="logo-name">Cat energy</p>
+      </a>
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+        </li>
+      </ul>
+      <div class="main-footer__copyright">
+        <a class="copyright__link copyright__link--image" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      </div>
+    </div>"
+  </footer>
 </body>
 
 </html>
