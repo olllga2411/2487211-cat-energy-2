@@ -7,14 +7,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/index.js" defer></script>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple.png">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="index.html">
-      <img class="main-header__logo-image" src="/source/images/logo-mobile.png" width="33" height="38" alt="Логотим магазина CAT Energy">
-      <p class="logo-text">Cat energy</p>
+      <img class="main-header__logo-image" src="images/logo-image-mobile.svg" width="33" height="38" alt="Логотип магазина CAT Energy">
+      <img class="logo-name" src="images/logo-name.svg" width="101" height="18" alt="Название магазина CAT Energy">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle button" type="button">
@@ -32,7 +35,7 @@
             <a class="main-nav__link" href="#">Подбор программы</a>
           </li>
         </ul>
-        <a class="hero-link button" href="#">Подобрать программу</a>
+        <a class="hero-link" href="#">Подобрать программу</a>
       </div>
     </nav>
   </header>
@@ -44,9 +47,9 @@
         <a class="hero-link button" href="#">Подобрать программу</a>
         <div class="hero__image">
           <picture>
-            <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/index/index-package-desktop@1x.png 1x,  images/index/index-package-desktop@2x.png 2x">
-            <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/index/index-package-tablet@1x.png 1x,  images/index/index-package-tablet@2x.png 2x">
-            <img src="images/index/index-package-mobile@1x.png" srcset="/source/images/cat-slider-after-mobile@2x.png 2x" width="280" height="270" alt="Товар в фирменной упаковке">
+            <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/index/promo-package-desktop@1x.png 1x,  images/index/promo-package-desktop@2x.png 2x">
+            <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/index/promo-package-tablet@1x.png 1x,  images/index/promo-package-tablet@2x.png 2x">
+            <img src="images/index/promo-package-mobile@1x.png" srcset="images/index/promo-package-mobile@2x.png 2x" width="280" height="270" alt="Товар в фирменной упаковке">
           </picture>
         </div>
       </div>
@@ -124,7 +127,7 @@
   <footer class="main-footer">
     <div class="main-footer__container">
       <a class="main-footer__logo" href="index.html">
-        <p class="logo-name">Cat energy</p>
+        <img class="logo-name" src="images/logo-name.svg" width="101" height="18" alt="Название магазина CAT Energy">
       </a>
       <div class="main-footer__social social">
         <ul class="social__list">
@@ -145,6 +148,7 @@
       </a>
     </div>
   </footer>
+  <script src="scripts/index.js" defer></script>
 </body>
 
 </html>

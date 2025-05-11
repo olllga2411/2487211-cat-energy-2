@@ -6,14 +6,17 @@
   <title>Магазин "Cat Energy"</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/index.js" defer></script>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple.png">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="index.html">
-      <img class="main-header__logo-image" src="/source/images/logo-mobile.png" width="33" height="38" alt="Логотим магазина CAT Energy">
-      <p class="logo-text">Cat energy</p>
+      <img class="main-header__logo-image" src="images/logo-image-mobile.svg" width="33" height="38" alt="Логотип магазина CAT Energy">
+      <img class="logo-name" src="images/logo-name.svg" width="101" height="18" alt="Название магазина CAT Energy">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle button" type="button">
@@ -22,16 +25,16 @@
       <div class="main-nav__container">
         <ul class="main-nav__list">
           <li class="main-nav__item">
-            <a class="main-nav__link main-nav__link--current" href="#">Главная</a>
+            <a class="main-nav__link" href="#">Главная</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
+            <a class="main-nav__link main-nav__link--current" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="main-nav__item">
             <a class="main-nav__link" href="#">Подбор программы</a>
           </li>
         </ul>
-        <a class="hero-link button" href="#">Подобрать программу</a>
+        <a class="hero-link" href="#">Подобрать программу</a>
       </div>
     </nav>
   </header>
@@ -42,8 +45,9 @@
         <li class="basis-card__item">
           <a class="basis-card__image" href="#">
             <picture>
-              <source width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="mages/catalog/chiken/chiken-500-tablet@1x.png 1x, images/catalog/chiken/chiken-500-tabler@2x.png 2x">
-              <img src="images/catalog/chiken/chiken-500-mobile@1x.png" srcset="images/catalog/chiken/chiken-500-mobile@2x.png" width="68" height="86" alt="Фотография товара">
+              <source width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="images/catalog/chiken/chiken-500-tablet@1x.png 1x,
+              images/catalog/chiken/chiken-500-tablet@2x.png 2x">
+              <img src="images/catalog/chiken/chiken-500-mobile@1x.webp" srcset="images/catalog/chiken/chiken-500-mobile@2x.png" width="68" height="86" alt="Фотография товара">
             </picture>
           </a>
           <a class="basis-card__name" href="#">Cat energy pro 500 г</a>
@@ -61,14 +65,16 @@
               <dd class="basis-card__description">700 &#8381;</dd>
             </div>
           </dl>
-          <a class="basis-card__button button" href="#">Заказать</a>
+          <a class="basis-card__button" href="#">Заказать</a>
         </li>
         <li class="basis-card__item">
           <a class="basis-card__image" href="#">
             <picture>
-              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="mages/catalog/chiken/chiken-1000-desktop@1x.png 1x, images/catalog/chiken/desktop-1000-tabler@2x.png 2x">
-              <source width="168" height="206" type="image/png" media="(min-width: 768px)" srcset="mages/catalog/chiken/chiken-1000-tablet@1x.png 1x, images/catalog/chiken/chiken-1000-tabler@2x.png 2x">
-              <img src="images/catalog/chiken/chiken-1000-mobile@1x.png" srcset="images/catalog/chiken/chiken-1000-mobile@2x.png" width="84" height="100" alt="Фотография товара">
+              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/catalog/chiken/chiken-1000-tablet@1x.png 1x,
+              images/catalog/chiken/chiken-1000-tablet@2x.png 2x">
+              <source width="168" height="206" type="image/png" media="(min-width: 768px)" srcset="images/catalog/chiken/chiken-1000-tablet@1x.png 1x,
+              images/catalog/chiken/chiken-1000-tablet@2x.png 2x">
+              <img src="images/catalog/chiken/chiken-1000-mobile@1x.webp" srcset="images/catalog/chiken/chiken-1000-mobile@2x.png" width="84" height="100" alt="Фотография товара">
             </picture>
           </a>
           <a class="basis-card__name" href="#">Cat energy pro 1000 г</a>
@@ -86,12 +92,12 @@
               <dd class="basis-card__description">1000 &#8381;</dd>
             </div>
           </dl>
-          <a class="basis-card__button button" href="#">Заказать</a>
+          <a class="basis-card__button" href="#">Заказать</a>
         </li>
         <li class="basis-card__item">
           <a class="basis-card__image" href="#">
             <picture>
-              <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="mages/catalog/fish/fish-500-tablet@1x.png 1x, images/catalog/fish/fish-500-tabler@2x.png 2x">
+              <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="images/catalog/fish/fish-500-table@1x.png 1x, images/catalog/fish/fish-500-table@2x.png 2x">
               <img src="images/catalog/fish/fish-500-mobile@1x.png" srcset="images/catalog/fish/fish-500-mobile@2x.png" width="68" height="86" alt="Фотография товара">
             </picture>
           </a>
@@ -110,13 +116,15 @@
               <dd class="basis-card__description">700 &#8381;</dd>
             </div>
           </dl>
-          <a class="basis-card__button button" href="#">Заказать</a>
+          <a class="basis-card__button" href="#">Заказать</a>
         </li>
         <li class="basis-card__item">
           <a class="basis-card__image" href="#">
             <picture>
-              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="mages/catalog/fish/fish-1000-desktop@1x.png 1x, images/catalog/fish/fish-desktop-1000-tabler@2x.png 2x">
-              <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="mages/catalog/fish/fish-1000-tablet@1x.png 1x, images/catalog/fish/fish-1000-tabler@2x.png 2x">
+              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/catalog/fish/fish-1000-destop@1x.png 1x,
+              images/catalog/fish/fish-1000-destop@2x.png 2x">
+              <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="images/catalog/fish/fish-1000-tablet@1x.png 1x,
+              images/catalog/fish/fish-1000-tablet@2x.png 2x">
               <img src="images/catalog/fish/fish-1000-mobile@1x.png" srcset="images/catalog/fish/fish-1000-mobile@2x.png" width="84" height="100" alt="Фотография товара">
             </picture>
           </a>
@@ -135,13 +143,14 @@
               <dd class="basis-card__description">1000 &#8381;</dd>
             </div>
           </dl>
-          <a class="basis-card__button button" href="#">Заказать</a>
+          <a class="basis-card__button" href="#">Заказать</a>
         </li>
         <li class="basis-card__item">
           <a class="basis-card__image" href="#">
             <picture>
-              <source width="161" height="171" type="image/png" media="(min-width: 768px)" srcset="mages/catalog/uckwheat/buckwheat-500-tablet@1x.png 1x, images/catalog/buckwheat/buckwheat-500-tabler@2x.png 2x">
-              <img src="images/catalog/buckwheat/buckwheat-500-desktop@1x.png" srcset="images/catalog/buckwheat/buckwheat-500-mobile@2x.png" width="68" height="86" alt="Фотография товара">
+              <source width="161" height="171" type="image/png" media="(min-width: 768px)" srcset="images/catalog/buckwheat/buckwheat-500-table@1x.png 1x,
+              images/catalog/buckwheat/buckwheat-500-table@2x.png  2x">
+              <img src="images/catalog/buckwheat/buckwheat-500-mobile@1x.png" srcset="images/catalog/buckwheat/buckwheat-500-mobile@2x.png" width="68" height="86" alt="Фотография товара">
             </picture>
           </a>
           <a class="basis-card__name" href="#">Cat energy slim 500 г</a>
@@ -164,9 +173,11 @@
         <li class="basis-card__item">
           <a class="basis-card__image" href="#">
             <picture>
-              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="mages/catalog/buckwheat/buckwheat-1000-desktop@1x.png 1x, images/catalog/buckwheat/buckwheat-1000-tabler@2x.png 2x">
-              <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="mages/catalog/buckwheat/buckwheat-1000-tablet@1x.png 1x, images/catalog/buckwheat/buckwheat-1000-tabler@2x.png 2x">
-              <img src="images/catalog/buckwheat/buckwheat-1000-desktop@1x.png" srcset="images/catalog/buckwheat/buckwheat-1000-mobile@2x.png" width="84" height="100" alt="Фотография товара">
+              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/catalog/buckwheat/buckwheat-1000-desktop@1x.png 1x,
+              images/catalog/buckwheat/buckwheat-1000-desktop@2x.png 2x">
+              <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="images/catalog/buckwheat/buckwheat-1000-tablet@1x.png 1x,
+              images/catalog/buckwheat/buckwheat-1000-tablet@2x.png 2x">
+              <img src="images/catalog/buckwheat/buckwheat-1000-mobile@1x.png" srcset="images/catalog/buckwheat/buckwheat-1000-mobile@2x.png" width="84" height="100" alt="Фотография товара">
             </picture>
           </a>
           <a class="basis-card__name" href="#">Cat energy slim 1000 г</a>
@@ -177,19 +188,20 @@
             </div>
             <div class="basis-card__item-attribute">
               <dt class="basis-card__taste">Вкус</dt>
-              <dd class="basis-card__description">Рыба</dd>
+              <dd class="basis-card__description">Гречка</dd>
             </div>
             <div class="basis-card__item-attribute">
               <dt class="basis-card__price">Цена</dt>
               <dd class="basis-card__description">700 &#8381;</dd>
             </div>
           </dl>
-          <a class="basis-card__button button" href="#">Заказать</a>
+          <a class="basis-card__button" href="#">Заказать</a>
         </li>
         <li class="basis-card__item">
           <a class="basis-card__image" href="#">
             <picture>
-              <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="mages/catalog/rice/rice-500-tablet@1x.png 1x, images/catalog/rice/rice-500-tabler@2x.png 2x">
+              <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="images/catalog/rice/rice-500-table@1x.png 1x,
+              images/catalog/rice/rice-500-table@2x.png 2x">
               <img src="images/catalog/rice/rice-500-mobile@1x.png" srcset="images/catalog/rice/rice-500-mobile@2x.png" width="74" height="84" alt="Фотография товара">
             </picture>
           </a>
@@ -201,14 +213,14 @@
             </div>
             <div class="basis-card__item-attribute">
               <dt class="basis-card__taste">Вкус</dt>
-              <dd class="basis-card__description">Гречка</dd>
+              <dd class="basis-card__description">Рис</dd>
             </div>
             <div class="basis-card__item-attribute">
               <dt class="basis-card__price">Цена</dt>
               <dd class="basis-card__description">400 &#8381;</dd>
             </div>
           </dl>
-          <a class="basis-card__button button" href="#">Заказать</a>
+          <a class="basis-card__button" href="#">Заказать</a>
         </li>
         <li class="basis-card__item more">
           <h3 class="more-title">Показать еще 100500 товаров</h3>
@@ -226,7 +238,7 @@
             <span class=" additional-card__package">1 упаковка (100 г)</span>
             <span class="additional-card__price">200 &#8381;</span>
           </div>
-          <a class="additional-card__button button" href="#">Заказать</a>
+          <a class="additional-card__button" href="#">Заказать</a>
         </li>
         <li class="additional-card__item">
           <a class="additional-card__name" href="#">Питьевая вода</a>
@@ -234,7 +246,7 @@
             <span class=" additional-card">5 литров</span>
             <span class="additional-card__price">50 &#8381;</span>
           </div>
-          <a class="additional-card__button button" href="#">Заказать</a>
+          <a class="additional-card__button" href="#">Заказать</a>
         </li>
         <li class=" additional-card__item">
           <a class="additional-card__name" href="#">Молоко</a>
@@ -242,7 +254,7 @@
             <span class=" additional-card__package">1 литр</span>
             <span class="additional-card__price">100 &#8381;</span>
           </div>
-          <a class="additional-card__button button" href="#">Заказать</a>
+          <a class="additional-card__button" href="#">Заказать</a>
         </li>
         <li class=" additional-card__item">
           <a class="additional-card__name" href="#">Витамины</a>
@@ -250,7 +262,7 @@
             <span class=" additional-card__package">1 упаковка (30 г)</span>
             <span class="additional-card__price">300 &#8381;</span>
           </div>
-          <a class=" additional-card__button button" href="#">Заказать</a>
+          <a class=" additional-card__button" href="#">Заказать</a>
         </li>
       </ul>
       <div class=" additional-card__present-wrapper">
@@ -281,6 +293,7 @@
     <div class="main-footer__container">
       <a class="main-footer__logo" href="index.html">
         <p class="logo-name">Cat energy</p>
+        <img class="logo-name" src="images/logo-name.svg" width="128" height="24" alt="Название магазина CAT Energy">
       </a>
       <div class="main-footer__social social">
         <ul class="social__list">
@@ -301,6 +314,7 @@
       </a>
     </div>
   </footer>
+  <script src="scripts/index.js" defer></script>
 </body>
 
 </html>
