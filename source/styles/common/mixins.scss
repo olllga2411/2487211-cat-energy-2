@@ -1,0 +1,30 @@
+@mixin font-face ($font-family, $font-style, $font-weight, $font-src) {
+  @font-face {
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    src: $font-src;
+    font-display: swap;
+  }
+}
+
+@mixin title ($fs-title, $lh-title, $color-title: $dark-color) {
+  font-family: $secondary-font;
+  font-size: $fs-title;
+  line-height: $lh-title;
+  color: $color-title;
+  text-decoration: none;
+}
+
+@mixin button ($fs-button, $lh-button, $color-button: $light-color, $bg-color-button: $basic-bg-color) {
+  font-family: $secondary-font;
+  font-size: $fs-button;
+  line-height: $lh-button;
+  text-transform: uppercase;
+  color: $color-button;
+  background-color: $bg-color-button;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+

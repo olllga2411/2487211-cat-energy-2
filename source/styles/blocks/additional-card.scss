@@ -1,0 +1,18 @@
+.additional-card__title {
+  @include title (24px, 24px);
+}
+
+.additional-card__name {
+  @include title (16px, 16px, #222222);
+}
+
+.additional-card__attribute-wrapper {
+  line-height: 14px;
+}
+
+.additional-card__present-wrapper {
+  font-size: 16px;
+  line-height: 20px;
+  color: $light-color;
+  background-color: $basic-bg-color;
+}

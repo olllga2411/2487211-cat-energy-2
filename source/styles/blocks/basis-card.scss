@@ -1,0 +1,17 @@
+.basis-card__title {
+  @include title (36px, 36px);
+}
+
+.basis-card__name {
+  @include title (16px, 20px, #222222);
+  text-transform: uppercase;
+}
+
+.basis-card__item-attribute {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.basis-card__button {
+  @include button (16px, 20px);
+}
