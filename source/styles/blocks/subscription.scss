@@ -1,0 +1,11 @@
+.subscription__title {
+  @include title (24px, 24px);
+}
+
+.subscription__text {
+  @include title (16px, 24px);
+}
+
+.subscription__button {
+  @include button (20px, 26px);
+}

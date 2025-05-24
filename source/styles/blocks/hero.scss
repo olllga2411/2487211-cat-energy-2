@@ -1,0 +1,12 @@
+.hero__title {
+  @include title (36px, 36px, $light-color);
+}
+
+.hero__slogan {
+  @include title (14px, 14px, $light-color);
+  text-transform: uppercase;
+}
+
+.hero-link {
+  @include button (16px, 20px);
+}

@@ -1,0 +1,18 @@
+.stats__title {
+  @include title (36px, 40px);
+}
+
+.stats__number {
+  @include title (24px, 24px);
+  text-transform: uppercase;
+}
+
+.stats__result {
+  @include title (14px, 20px);
+  text-transform: uppercase;
+}
+
+.stats__description {
+  font-size: 12px;
+  line-height: 12px;
+}
