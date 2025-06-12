@@ -1,3 +1,16 @@
 .main-nav__container {
   @include title(20px, 20px);
 }
+
+.main-nav__toggle {
+  background-image: url("../../icons/open-menu-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+}
+
+.main-nav__toggle--close {
+  background-image: url("../../icons/close-menu-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+}
+

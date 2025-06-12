@@ -16,3 +16,53 @@
   font-size: 12px;
   line-height: 12px;
 }
+
+.stats__slider-button {
+  width: 4px;
+  height: 512px;
+  border: none;
+  padding: 0;
+  border-radius: 2px;
+  background-color: #666666;
+  position: relative;
+}
+
+.stats__slider-button::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  border: 2px solid #666666;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.stats__slider-button::after {
+  content: "";
+  width: 24px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #666666;
+  mask-image: url("../../icons/arrow-slider.svg");
+  mask-size: 24px 18px;
+  mask-position: 50%;
+  mask-repeat: no-repeat;
+}
+
+.stats__slider-button:hover {
+  background-color: $basic-bg-color;
+}
+
+.stats__slider-button:hover::before {
+  border: 2px solid $basic-bg-color;
+}
+
+.stats__slider-button:hover::after {
+  background-color: $basic-bg-color;
+}
