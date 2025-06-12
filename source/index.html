@@ -15,31 +15,31 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo" href="index.html">
-      <picture>
-        <source width="202" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-hesder-desktop.svg">
-        <source width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header-tablet.svg">
-        <img class="logo-name-header" src="images/logo-header-mobile.svg" width="190" height="38" alt="Логотип магазина CAT Energy">
-      </picture>
-    </a>
-    <nav class="main-nav">
+    <div class="main-header__container">
+      <a class="main-header__logo" href="index.html">
+        <picture>
+          <source width="202" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-hesder-desktop.svg">
+          <source width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header-tablet.svg">
+          <img class="logo-name-header" src="images/logo-header-mobile.svg" width="190" height="38" alt="Логотип магазина CAT Energy">
+        </picture>
+      </a>
       <button class="main-nav__toggle main-nav__toggle--сlose" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
-      <div class="main-nav__container">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a class="main-nav__link main-nav__link--current" href="#">Главная</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Подбор программы</a>
-          </li>
-        </ul>
-        <a class="hero-link" href="#">Подобрать программу</a>
-      </div>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link main-nav__link--current" href="#">Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">Подбор программы</a>
+        </li>
+      </ul>
+      <!-- <a class="hero-link" href="#">Подобрать программу</a> -->
     </nav>
   </header>
   <main class="main-container">
