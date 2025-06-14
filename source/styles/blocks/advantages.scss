@@ -72,6 +72,7 @@
 
   @media (min-width: $desktop-width) {
     justify-content: space-between;
+    gap: inherit;
   }
 }
 
@@ -97,12 +98,10 @@
   @media (min-width: $tablet-width) {
     width: 249px;
     height: 280px;
-    background-color:antiquewhite;
   }
 
   @media (min-width: $desktop-width) {
     margin-bottom: 37px;
-    background-color:antiquewhite;
   }
 }
 
