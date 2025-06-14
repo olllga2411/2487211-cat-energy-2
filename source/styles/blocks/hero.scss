@@ -1,12 +1,79 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:bisque
+}
+
+.hero-container {
+  background-color:aquamarine;
+  text-align: center;
+  padding: 0 20px;
+}
+
 .hero__title {
   @include title (36px, 36px, $light-color);
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .hero__slogan {
   @include title (14px, 14px, $light-color);
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .hero-link {
-  @include button (16px, 20px);
+  @include button(16px, 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .hero__title {
+    font-size: 60px;
+    line-height: 60px;
+    color: inherit;
+  }
+
+  .hero__slogan {
+    font-size: 20px;
+    line-height: 20px;
+    color: inherit;
+  }
+
+  .hero-container {
+    width: 420px;
+    text-align: inherit;
+  }
+
+  .hero {
+    align-items: inherit;
+    padding-left: 90px;
+  }
+
+  .hero-link {
+    @include button (20px, 26px);
+    display: none;
+  }
+
+  .hero__slogan {
+    margin-bottom: 21px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hero__slogan {
+    margin-bottom: 52px;
+  }
+
+  .hero {
+    flex-direction: row;
+    padding-left: 80px;
+  }
 }
