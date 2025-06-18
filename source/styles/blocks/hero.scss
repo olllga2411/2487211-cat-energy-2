@@ -20,13 +20,13 @@
   content: "";
   height: 302px;
   width: 100%;
-  background-image: url(../../images/bg-cat-mobile@1x.png);
+  background-image: url("../../images/bg-cat-mobile@1x.png");
   background-size: 320px 302px;
-  // background-position: 50% 0;
+  background-position: 50% 0;
   background-repeat: no-repeat;
   z-index: -1;
   position: absolute;
-  background-color:#808080;
+  background-color: #808080;
 
   @media (min-width: $tablet-width) {
     display: none;
@@ -34,8 +34,9 @@
 
   @media (min-width: $desktop-width) {
     display: block;
-    background-image: url(../../images/bg-cat-destop@1x.png);
+    background-image: url("../../images/bg-cat-destop@1x.png");
     background-size: 1041px 694px;
+    background-position: left;
     height: 694px;
     top: -114px;
     left: 720px;
