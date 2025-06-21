@@ -1,5 +1,8 @@
 .stats__title {
   @include title (36px, 40px);
+  margin: 0;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
 
 .stats__number {
@@ -10,6 +13,9 @@
 .stats__result {
   @include title (14px, 20px);
   text-transform: uppercase;
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
 }
 
 .stats__description {
@@ -65,4 +71,14 @@
 
 .stats__slider-button:hover::after {
   background-color: $basic-bg-color;
+}
+
+
+.stats__container {
+  background-color:#EAEAEA;
+  padding: 25 20px 40px;
+}
+
+.stats__list {
+  margin: 0;
 }

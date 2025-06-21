@@ -1,5 +1,13 @@
 .basis-card__title {
   @include title (36px, 36px);
+  display: block;
+  margin: 0;
+  font-weight: 400;
+  border-top: 1px solid#D9D9D9;
+  border-bottom: 1px solid#D9D9D9;
+  padding-bottom: 41px;
+  padding-top: 27px;
+  text-align: center;
 }
 
 .basis-card__name {
@@ -14,4 +22,10 @@
 
 .basis-card__button {
   @include button (16px, 20px);
+}
+
+.basis-card__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
