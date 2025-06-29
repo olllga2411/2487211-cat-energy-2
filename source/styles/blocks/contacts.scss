@@ -22,6 +22,8 @@
 .contacts__slogan {
   @include title (16px, 20px);
   text-transform: uppercase;
+  margin: 0;
+  font-weight: 400;
 
   @media (min-width: $tablet-width) {
     @include title (20px, 26px);
@@ -30,6 +32,8 @@
 
 .contacts__adress {
   line-height: 20px;
+  margin: 0;
+
 
 
   @media (min-width: $tablet-width) {

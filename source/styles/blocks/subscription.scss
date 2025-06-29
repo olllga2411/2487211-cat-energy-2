@@ -1,11 +1,43 @@
 .subscription__title {
   @include title (24px, 24px);
+  margin: 0;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-bottom: 32px;
 }
 
 .subscription__text {
   @include title (16px, 24px);
+  margin-bottom: 24px;
 }
 
 .subscription__button {
   @include button (20px, 26px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+}
+
+.subscription-wrapper {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.subscription {
+  padding: 40px 0;
+}
+
+.subscription__form input {
+  box-sizing: border-box;
+  height: 56px;
+  width: 100%;
+  margin-bottom: 16px;
+  border: 1px solid #CDCDCD;
+  padding: 13px;
+  text-transform: uppercase;
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 100%;
 }
